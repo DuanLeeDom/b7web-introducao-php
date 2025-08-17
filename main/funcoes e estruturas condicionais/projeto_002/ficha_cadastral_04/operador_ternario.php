@@ -41,4 +41,9 @@ $user = 'admin';
 $password = '1234';
 echo $user == 'admin' && $password == '1234' ? 'Acesso concedido!' : 'Acesso negado!';
 
+echo '<br/>';
+// 6. Identificador de número se é negativo ou positivo
+$num = -194;
+$validador = $num >= 0? 'Positivo' : 'Negativo';
+echo "O número $num é $validador";
 ?>
